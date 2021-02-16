@@ -29,6 +29,8 @@ const institucionRoutes = require('./routes/institucion');
 const agendacontactoRoutes = require('./routes/agendacontacto');
 const concurrenteRoutes = require('./routes/concurrente');
 const busquedaRoutes = require('./routes/busqueda');
+const uploadRoutes = require('./routes/upload');
+const imagenesRoutes = require('./routes/imagenes');
 
 
 // Connecting to database via Mongo Atlas
@@ -49,6 +51,8 @@ app.use('/proveedores', proveedorRoutes);
 app.use('/profesionales', profesionalRoutes);
 app.use('/usuarios', usuarioRoutes);
 app.use('/login', loginRoutes);
+app.use('/upload', uploadRoutes);
+app.use('/imagenes', imagenesRoutes);
 app.use('/', appRoutes);
 
 // Petitions

@@ -7,6 +7,7 @@ const agendaContactoSchema = new Schema({
     telefono: { type: String, required: [false, 'El telefono es necesaria'] },
     celular: { type: String, required: [false, 'El celular es necesario'] },
     institucion: { type: String, required: [false, 'La institucion es necesaria'], },
+    img: { type: String, required: false },
     horario: { type: String, required: false }
 }, { collection: 'agendacontactos' });
 agendaContactoSchema.plugin(uniqueValidator, { message: '{PATH} debe ser unico' });

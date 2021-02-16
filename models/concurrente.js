@@ -21,7 +21,7 @@ var concurrenteSchema = new Schema({
     baja: { type: String, required: false },
     cud: { type: String, required: false },
     vencimiento: { type: String, required: false },
-    imagen: { type: String, required: false },
+    img: { type: String, required: false },
     jornada: { type: String, required: false },
     diagnostico: { type: String, required: false },
     tratamiento: { type: String, required: false },

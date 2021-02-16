@@ -13,6 +13,7 @@ const proveedorSchema = new Schema({
   celular: { type: String, required: [false, 'El celular es necesario'] },
   correo: { type: String, required: [false, 'El correo es necesario'] },
   contacto: { type: String, required: [true, 'El contacto es necesario'] },
+  img: { type: String, required: false },
   actividad: { type: String, required: false }
 
 }// , { collection: 'proveedores' }

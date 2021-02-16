@@ -18,7 +18,8 @@ const profesionalSchema = new Schema({
   alta: { type: String, required: false },
   baja: { type: String, required: false },
   seguro: { type: String, required: false },
-  imagen: { type: String, required: false },
+  
+  img: { type: String, required: false },
       inicioLunes: { type: String, required: false },
       finalLunes: { type: String, required: false },
       actividadLunes: { type: String, required: false },

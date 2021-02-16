@@ -17,6 +17,7 @@ const institucionSchema = new Schema({
     contactocel: { type: String, required: false },
     contactocorreo: { type: String, required: false },
     web: { type: String, required: false },
+    img: { type: String, required: false },
     otros: { type: String, required: false }
 
 }, { collection: 'instituciones' });
